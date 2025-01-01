@@ -11,9 +11,12 @@ console.log(scene);
 
 
 
-onMounted(()=>{
-    // console.log( document.getElementById('demo'))
-    document.getElementById('demo').appendChild(renderer.domElement);
+
+onMounted(() => {
+  const container = document.getElementById('demo');
+  if (container && renderer.domElement) {
+    container.appendChild(renderer.domElement);
+  }
 })
 </script>
 

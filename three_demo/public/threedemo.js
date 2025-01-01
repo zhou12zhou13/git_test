@@ -40,6 +40,4 @@ scene.add(mesh);
 // // document.body.appendChild(renderer.domElement);//渲染器WebGLRenderer通过属性.domElement可以获得渲染方法.render()生成的Canvas画布
 // document.getElementById('demo').appendChild(renderer.domElement);
 
-export  default{  
-    scene
-}
+export  default  scene
